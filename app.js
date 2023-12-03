@@ -43,3 +43,12 @@ const input2Value = document.getElementById('input2').value;
 
 document.getElementById('input1').value = input2Value;
 document.getElementById('input2').value = input1Value;
+
+// Practical task 7
+document.querySelector('body').innerHTML = `
+<main class= " mainClass check item " > 	
+		        <div id="myDiv">
+				<p>First paragraph</p>
+         </div>
+       </main> 
+`;
